@@ -1,0 +1,148 @@
+{
+  "themes": {
+    "emerald": {
+      "colors": {
+        "background": "#ffffff",
+        "foreground": "#123b30",
+        "canvas": "#f4fbf7",
+        "muted": "#f0fdf4",
+        "muted-foreground": "#47675c",
+        "primary": "#047857",
+        "primary-foreground": "#ffffff",
+        "secondary": "#d1fae5",
+        "secondary-foreground": "#065f46",
+        "accent": "#d1fae5",
+        "accent-foreground": "#065f46",
+        "border": "#d2e5d9",
+        "input": "#6a9382",
+        "input-surface": "#ffffff",
+        "ring": "#047857",
+        "destructive": "#be123c",
+        "warning": "#fef3c7",
+        "warning-foreground": "#92400e",
+        "success": "#bbf7d0",
+        "success-foreground": "#166534",
+        "toolbar": "#fff7e0",
+        "toolbar-border": "#f4cf71",
+        "selection-border": "#fbbf24",
+        "row-border": "#d7ece1",
+        "table-header": "#ffffff",
+        "sidebar": "#edf8f1",
+        "sidebar-foreground": "#123b30",
+        "sidebar-muted": "#47675c",
+        "sidebar-hover": "#d1fae5",
+        "sidebar-accent": "#047857",
+        "sidebar-accent-foreground": "#ffffff",
+        "sidebar-border": "#d2e5d9",
+        "sidebar-ring": "#047857"
+      },
+      "checks": [
+        {
+          "foreground": "foreground",
+          "background": "background",
+          "type": "normal-text"
+        },
+        {
+          "foreground": "foreground",
+          "background": "canvas",
+          "type": "normal-text"
+        },
+        {
+          "foreground": "muted-foreground",
+          "background": "background",
+          "type": "normal-text"
+        },
+        {
+          "foreground": "muted-foreground",
+          "background": "canvas",
+          "type": "normal-text"
+        },
+        {
+          "foreground": "muted-foreground",
+          "background": "table-header",
+          "type": "normal-text"
+        },
+        {
+          "foreground": "primary",
+          "background": "background",
+          "type": "normal-text"
+        },
+        {
+          "foreground": "primary-foreground",
+          "background": "primary",
+          "type": "normal-text"
+        },
+        {
+          "foreground": "secondary-foreground",
+          "background": "secondary",
+          "type": "normal-text"
+        },
+        {
+          "foreground": "accent-foreground",
+          "background": "accent",
+          "type": "normal-text"
+        },
+        {
+          "foreground": "warning-foreground",
+          "background": "warning",
+          "type": "normal-text"
+        },
+        {
+          "foreground": "success-foreground",
+          "background": "success",
+          "type": "normal-text"
+        },
+        {
+          "foreground": "sidebar-foreground",
+          "background": "sidebar",
+          "type": "normal-text"
+        },
+        {
+          "foreground": "sidebar-muted",
+          "background": "sidebar",
+          "type": "normal-text"
+        },
+        {
+          "foreground": "sidebar-foreground",
+          "background": "sidebar-hover",
+          "type": "normal-text"
+        },
+        {
+          "foreground": "sidebar-accent-foreground",
+          "background": "sidebar-accent",
+          "type": "normal-text"
+        },
+        {
+          "foreground": "destructive",
+          "background": "background",
+          "type": "normal-text"
+        },
+        {
+          "foreground": "primary-foreground",
+          "background": "destructive",
+          "type": "normal-text"
+        },
+        {
+          "foreground": "sidebar-ring",
+          "background": "sidebar",
+          "type": "ui"
+        },
+        {
+          "foreground": "input",
+          "background": "background",
+          "type": "ui"
+        },
+        {
+          "foreground": "input",
+          "background": "input-surface",
+          "type": "ui"
+        },
+        {
+          "foreground": "ring",
+          "background": "background",
+          "type": "ui"
+        }
+      ]
+    }
+  }
+}

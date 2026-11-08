@@ -1,0 +1,262 @@
+[
+  {
+    "width": 320,
+    "screen": "grades",
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "scrollWidth": 320,
+    "clientWidth": 320,
+    "h1Count": 1,
+    "viewportHeight": 1000,
+    "firstGradeInput": {
+      "y": 593,
+      "height": 44,
+      "viewportRatio": 0.593,
+      "withinFirst60Percent": true
+    },
+    "tinyText": []
+  },
+  {
+    "width": 320,
+    "screen": "attendance",
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "scrollWidth": 320,
+    "clientWidth": 320,
+    "h1Count": 1,
+    "viewportHeight": 1000,
+    "firstGradeInput": null,
+    "tinyText": []
+  },
+  {
+    "width": 320,
+    "screen": "progress",
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "scrollWidth": 320,
+    "clientWidth": 320,
+    "h1Count": 1,
+    "viewportHeight": 1000,
+    "firstGradeInput": null,
+    "tinyText": []
+  },
+  {
+    "width": 320,
+    "screen": "report",
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "scrollWidth": 320,
+    "clientWidth": 320,
+    "h1Count": 1,
+    "viewportHeight": 1000,
+    "firstGradeInput": null,
+    "tinyText": []
+  },
+  {
+    "width": 390,
+    "screen": "grades",
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "h1Count": 1,
+    "viewportHeight": 844,
+    "firstGradeInput": {
+      "y": 593,
+      "height": 44,
+      "viewportRatio": 0.70260663507109,
+      "withinFirst60Percent": false
+    },
+    "tinyText": []
+  },
+  {
+    "width": 390,
+    "screen": "attendance",
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "h1Count": 1,
+    "viewportHeight": 844,
+    "firstGradeInput": null,
+    "tinyText": []
+  },
+  {
+    "width": 390,
+    "screen": "progress",
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "h1Count": 1,
+    "viewportHeight": 844,
+    "firstGradeInput": null,
+    "tinyText": []
+  },
+  {
+    "width": 390,
+    "screen": "report",
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "h1Count": 1,
+    "viewportHeight": 844,
+    "firstGradeInput": null,
+    "tinyText": []
+  },
+  {
+    "width": 768,
+    "screen": "grades",
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "scrollWidth": 768,
+    "clientWidth": 768,
+    "h1Count": 1,
+    "viewportHeight": 1000,
+    "firstGradeInput": {
+      "y": 546.5,
+      "height": 44,
+      "viewportRatio": 0.5465,
+      "withinFirst60Percent": true
+    },
+    "tinyText": []
+  },
+  {
+    "width": 768,
+    "screen": "attendance",
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "scrollWidth": 768,
+    "clientWidth": 768,
+    "h1Count": 1,
+    "viewportHeight": 1000,
+    "firstGradeInput": null,
+    "tinyText": []
+  },
+  {
+    "width": 768,
+    "screen": "progress",
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "scrollWidth": 768,
+    "clientWidth": 768,
+    "h1Count": 1,
+    "viewportHeight": 1000,
+    "firstGradeInput": null,
+    "tinyText": []
+  },
+  {
+    "width": 768,
+    "screen": "report",
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "scrollWidth": 768,
+    "clientWidth": 768,
+    "h1Count": 1,
+    "viewportHeight": 1000,
+    "firstGradeInput": null,
+    "tinyText": []
+  },
+  {
+    "width": 1440,
+    "screen": "grades",
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "h1Count": 1,
+    "viewportHeight": 1000,
+    "firstGradeInput": {
+      "y": 457.5,
+      "height": 44,
+      "viewportRatio": 0.4575,
+      "withinFirst60Percent": true
+    },
+    "tinyText": []
+  },
+  {
+    "width": 1440,
+    "screen": "attendance",
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "h1Count": 1,
+    "viewportHeight": 1000,
+    "firstGradeInput": null,
+    "tinyText": []
+  },
+  {
+    "width": 1440,
+    "screen": "progress",
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "h1Count": 1,
+    "viewportHeight": 1000,
+    "firstGradeInput": null,
+    "tinyText": []
+  },
+  {
+    "width": 1440,
+    "screen": "report",
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "h1Count": 1,
+    "viewportHeight": 1000,
+    "firstGradeInput": null,
+    "tinyText": []
+  }
+]

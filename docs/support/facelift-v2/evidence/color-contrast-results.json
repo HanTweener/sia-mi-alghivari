@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "scope": "Declared opaque sRGB token pairs, not WCAG certification",
+  "checks": [
+    {
+      "name": "emerald: foreground on background (normal-text)",
+      "ratio": 12.396799847955341,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "emerald: foreground on canvas (normal-text)",
+      "ratio": 11.799729519995562,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "emerald: muted-foreground on background (normal-text)",
+      "ratio": 6.245243386302951,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "emerald: muted-foreground on canvas (normal-text)",
+      "ratio": 5.944452088340392,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "emerald: muted-foreground on table-header (normal-text)",
+      "ratio": 6.245243386302951,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "emerald: primary on background (normal-text)",
+      "ratio": 5.483924052498799,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "emerald: primary-foreground on primary (normal-text)",
+      "ratio": 5.483924052498799,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "emerald: secondary-foreground on secondary (normal-text)",
+      "ratio": 6.775076101423649,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "emerald: accent-foreground on accent (normal-text)",
+      "ratio": 6.775076101423649,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "emerald: warning-foreground on warning (normal-text)",
+      "ratio": 6.367237188363559,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "emerald: success-foreground on success (normal-text)",
+      "ratio": 5.883550952886429,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "emerald: sidebar-foreground on sidebar (normal-text)",
+      "ratio": 11.392092574539317,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "emerald: sidebar-muted on sidebar (normal-text)",
+      "ratio": 5.73909328858182,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "emerald: sidebar-foreground on sidebar-hover (normal-text)",
+      "ratio": 10.930868421732818,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "emerald: sidebar-accent-foreground on sidebar-accent (normal-text)",
+      "ratio": 5.483924052498799,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "emerald: destructive on background (normal-text)",
+      "ratio": 6.285164560662439,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "emerald: primary-foreground on destructive (normal-text)",
+      "ratio": 6.285164560662439,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "name": "emerald: sidebar-ring on sidebar (ui)",
+      "ratio": 5.039475610160242,
+      "minimum": 3.0,
+      "pass": true
+    },
+    {
+      "name": "emerald: input on background (ui)",
+      "ratio": 3.437740905941075,
+      "minimum": 3.0,
+      "pass": true
+    },
+    {
+      "name": "emerald: input on input-surface (ui)",
+      "ratio": 3.437740905941075,
+      "minimum": 3.0,
+      "pass": true
+    },
+    {
+      "name": "emerald: ring on background (ui)",
+      "ratio": 5.483924052498799,
+      "minimum": 3.0,
+      "pass": true
+    }
+  ]
+}

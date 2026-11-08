@@ -1,0 +1,1288 @@
+{
+ "url": "http://127.0.0.1:5173/",
+ "at": "2026-10-29T03:02:12.695Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.67,
+    0.58
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 1133,
+     "screens": 1.3,
+     "words": 212,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 8,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Nilai pecahan sederhana",
+     "words": 3,
+     "chars": 23,
+     "lines": 1,
+     "size": 24,
+     "vw": 1.7,
+     "font": "ui-sans-serif",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.25,
+     "top": 141,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Nilai pecahan sederhana",
+     "words": 3,
+     "lines": 1,
+     "size": 24,
+     "font": "ui-sans-serif"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "ui-sans-serif",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      16,
+      18,
+      19,
+      24
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "ui-sans-serif",
+      "size": 14,
+      "leading": 1.43,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.2
+     },
+     "measureChars": 162,
+     "max": {
+      "size": 24,
+      "vw": 1.7,
+      "font": "ui-sans-serif",
+      "text": "Nilai pecahan sederhana"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.03,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 14,
+      "top": 470
+     },
+     {
+      "text": "02",
+      "size": 14,
+      "top": 534
+     },
+     {
+      "text": "03",
+      "size": 14,
+      "top": 598
+     },
+     {
+      "text": "04",
+      "size": 14,
+      "top": 662
+     },
+     {
+      "text": "05",
+      "size": 14,
+      "top": 726
+     },
+     {
+      "text": "06",
+      "size": 14,
+      "top": 790
+     },
+     {
+      "text": "07",
+      "size": 14,
+      "top": 854
+     },
+     {
+      "text": "08",
+      "size": 14,
+      "top": 918
+     }
+    ],
+    "color": {
+     "bodyBg": "#f4fbf7",
+     "bodyBgHsl": {
+      "h": 146,
+      "s": 0.47,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 253,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#47675c",
+       "share": 0.52
+      },
+      {
+       "color": "#123b30",
+       "share": 0.42
+      },
+      {
+       "color": "#047857",
+       "share": 0.03
+      },
+      {
+       "color": "#064e3b",
+       "share": 0.02
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#123b30"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": 6,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Lewati ke isi utama",
+      "Nilai penilaian Guru"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 3,
+     "hairlineSamples": [
+      "details.border-b.border-toolbar-border 1440px",
+      "aside.flex.flex-col 240px",
+      "footer.mt-9.border-t 1136px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 1,
+     "boxRadius": 8,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 248,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 1133,
+    "margins": {
+     "left": 16,
+     "right": 32
+    },
+    "sections": [],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Nilai pecahan sederhana",
+      "size": 24,
+      "top": 141,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 293,
+      "n": 2
+     },
+     {
+      "x": 272,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 3,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.24,
+    "voidBox": {
+     "x": 480,
+     "y": 420,
+     "w": 660,
+     "h": 480
+    }
+   },
+   "app": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "dark": false,
+    "ground": "#f4fbf7",
+    "sidebar": {
+     "w": 240,
+     "tag": "aside",
+     "links": 5,
+     "share": 0.17
+    },
+    "topbar": {
+     "h": 45
+    },
+    "canvas": {
+     "left": 32,
+     "right": 24
+    },
+    "hero": {
+     "text": "Nilai pecahan sederhana",
+     "words": 3,
+     "chars": 23,
+     "lines": 1,
+     "size": 24,
+     "vw": 1.7,
+     "font": "ui-sans-serif",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.25,
+     "top": 141,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 2,
+     "firstScreen": 2,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 3,
+     "radii": [
+      [
+       0,
+       2
+      ],
+      [
+       8,
+       1
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 8,
+     "tabularShare": 1,
+     "kpiMax": 14
+    },
+    "rows": {
+     "count": 8,
+     "median": 64
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      14,
+      16,
+      18,
+      19,
+      24
+     ]
+    },
+    "title": {
+     "text": "Nilai pecahan sederhana",
+     "size": 24,
+     "top": 141
+    },
+    "colourShare": 0.001
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.7,
+    0.51
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 1262,
+     "screens": 1.2,
+     "words": 189,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 8,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Nilai pecahan sederhana",
+     "words": 3,
+     "chars": 23,
+     "lines": 1,
+     "size": 24,
+     "vw": 3.1,
+     "font": "ui-sans-serif",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.25,
+     "top": 202,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Nilai pecahan sederhana",
+     "words": 3,
+     "lines": 1,
+     "size": 24,
+     "font": "ui-sans-serif"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "ui-sans-serif",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      16,
+      18,
+      19,
+      24
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "ui-sans-serif",
+      "size": 14,
+      "leading": 1.43,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.2
+     },
+     "measureChars": 101,
+     "max": {
+      "size": 24,
+      "vw": 3.1,
+      "font": "ui-sans-serif",
+      "text": "Nilai pecahan sederhana"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.05,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 14,
+      "top": 559
+     },
+     {
+      "text": "02",
+      "size": 14,
+      "top": 623
+     },
+     {
+      "text": "03",
+      "size": 14,
+      "top": 687
+     },
+     {
+      "text": "04",
+      "size": 14,
+      "top": 751
+     },
+     {
+      "text": "05",
+      "size": 14,
+      "top": 815
+     },
+     {
+      "text": "06",
+      "size": 14,
+      "top": 879
+     },
+     {
+      "text": "07",
+      "size": 14,
+      "top": 943
+     },
+     {
+      "text": "08",
+      "size": 14,
+      "top": 1007
+     }
+    ],
+    "color": {
+     "bodyBg": "#f4fbf7",
+     "bodyBgHsl": {
+      "h": 146,
+      "s": 0.47,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 342,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#47675c",
+       "share": 0.54
+      },
+      {
+       "color": "#123b30",
+       "share": 0.41
+      },
+      {
+       "color": "#047857",
+       "share": 0.03
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#123b30"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": 6,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Lewati ke isi utama",
+      "Pilih layar"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 3,
+     "hairlineSamples": [
+      "details.border-b.border-toolbar-border 768px",
+      "aside.flex.flex-col 768px",
+      "footer.mt-9.border-t 704px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 1,
+     "boxRadius": 8,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 0,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 1262,
+    "margins": {
+     "left": 24,
+     "right": 24
+    },
+    "sections": [],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Nilai pecahan sederhana",
+      "size": 24,
+      "top": 202,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 53,
+      "n": 2
+     },
+     {
+      "x": 32,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 3,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "dark": false,
+    "ground": "#f4fbf7",
+    "sidebar": null,
+    "topbar": {
+     "h": 45
+    },
+    "canvas": {
+     "left": 24,
+     "right": 16
+    },
+    "hero": {
+     "text": "Nilai pecahan sederhana",
+     "words": 3,
+     "chars": 23,
+     "lines": 1,
+     "size": 24,
+     "vw": 3.1,
+     "font": "ui-sans-serif",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.25,
+     "top": 202,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 1,
+     "firstScreen": 1,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 1,
+     "radii": [
+      [
+       8,
+       1
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 8,
+     "tabularShare": 1,
+     "kpiMax": 14
+    },
+    "rows": {
+     "count": 8,
+     "median": 64
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      14,
+      16,
+      18,
+      19,
+      24
+     ]
+    },
+    "title": {
+     "text": "Nilai pecahan sederhana",
+     "size": 24,
+     "top": 202
+    },
+    "colourShare": 0.001
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.77,
+    0.69
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 1595,
+     "screens": 1.9,
+     "words": 183,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 8,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Nilai pecahan sederhana",
+     "words": 3,
+     "chars": 23,
+     "lines": 1,
+     "size": 20,
+     "vw": 5.1,
+     "font": "ui-sans-serif",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.25,
+     "top": 186,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Nilai pecahan sederhana",
+     "words": 3,
+     "lines": 1,
+     "size": 20,
+     "font": "ui-sans-serif"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "ui-sans-serif",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      16,
+      18,
+      20
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "ui-sans-serif",
+      "size": 14,
+      "leading": 1.43,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.2
+     },
+     "measureChars": 51,
+     "max": {
+      "size": 20,
+      "vw": 5.1,
+      "font": "ui-sans-serif",
+      "text": "Nilai pecahan sederhana"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.05,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 14,
+      "top": 593
+     },
+     {
+      "text": "02",
+      "size": 14,
+      "top": 683
+     },
+     {
+      "text": "03",
+      "size": 14,
+      "top": 773
+     },
+     {
+      "text": "04",
+      "size": 14,
+      "top": 863
+     },
+     {
+      "text": "05",
+      "size": 14,
+      "top": 953
+     },
+     {
+      "text": "06",
+      "size": 14,
+      "top": 1043
+     },
+     {
+      "text": "07",
+      "size": 14,
+      "top": 1133
+     },
+     {
+      "text": "08",
+      "size": 14,
+      "top": 1232
+     }
+    ],
+    "color": {
+     "bodyBg": "#f4fbf7",
+     "bodyBgHsl": {
+      "h": 146,
+      "s": 0.47,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 359,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#47675c",
+       "share": 0.52
+      },
+      {
+       "color": "#123b30",
+       "share": 0.42
+      },
+      {
+       "color": "#047857",
+       "share": 0.03
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#123b30"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": 6,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Lewati ke isi utama",
+      "Pilih layar"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 3,
+     "hairlineSamples": [
+      "details.border-b.border-toolbar-border 390px",
+      "aside.flex.flex-col 390px",
+      "footer.mt-9.border-t 358px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 1,
+     "boxRadius": 8,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 0,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 1595,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "section.overflow-hidden.rounded-lg",
+      "tag": "section",
+      "top": 359,
+      "height": 950,
+      "words": 66,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Daftar nilai siswa",
+       "size": 18,
+       "tag": "h2"
+      },
+      "left": 33,
+      "right": 33,
+      "textLeft": 33,
+      "textRight": 84,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.mt-6.flex",
+      "tag": "div",
+      "top": 1333,
+      "height": 133,
+      "words": 13,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Nilai pecahan sederhana",
+      "size": 20,
+      "top": 186,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 33,
+      "n": 2
+     },
+     {
+      "x": 16,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 3,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "dark": false,
+    "ground": "#f4fbf7",
+    "sidebar": null,
+    "topbar": {
+     "h": 45
+    },
+    "canvas": {
+     "left": 16,
+     "right": -16
+    },
+    "hero": {
+     "text": "Nilai pecahan sederhana",
+     "words": 3,
+     "chars": 23,
+     "lines": 1,
+     "size": 20,
+     "vw": 5.1,
+     "font": "ui-sans-serif",
+     "weight": 600,
+     "tracking": -0.02,
+     "leading": 1.25,
+     "top": 186,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 1,
+     "firstScreen": 1,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 8,
+     "radii": [
+      [
+       0,
+       7
+      ],
+      [
+       8,
+       1
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 0,
+     "hues": 0,
+     "samples": []
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 8,
+     "tabularShare": 1,
+     "kpiMax": 14
+    },
+    "rows": {
+     "count": 8,
+     "median": 90
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      14,
+      16,
+      18,
+      20
+     ]
+    },
+    "title": {
+     "text": "Nilai pecahan sederhana",
+     "size": 20,
+     "top": 186
+    },
+    "colourShare": 0.003
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "E:\\Repo\\Privates\\sia_mi_alghivari\\docs\\support\\facelift-v2\\evidence\\taste-round1\\desktop-fold.jpg",
+   "pages": [
+    "E:\\Repo\\Privates\\sia_mi_alghivari\\docs\\support\\facelift-v2\\evidence\\taste-round1\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "E:\\Repo\\Privates\\sia_mi_alghivari\\docs\\support\\facelift-v2\\evidence\\taste-round1\\tablet-fold.jpg",
+   "pages": [
+    "E:\\Repo\\Privates\\sia_mi_alghivari\\docs\\support\\facelift-v2\\evidence\\taste-round1\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "E:\\Repo\\Privates\\sia_mi_alghivari\\docs\\support\\facelift-v2\\evidence\\taste-round1\\mobile-fold.jpg",
+   "pages": [
+    "E:\\Repo\\Privates\\sia_mi_alghivari\\docs\\support\\facelift-v2\\evidence\\taste-round1\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

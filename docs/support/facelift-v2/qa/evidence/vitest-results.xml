@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="7" failures="0" errors="0" time="3.4966792">
+    <testsuite name="src/App.test.tsx" timestamp="2026-10-28T18:21:24.464Z" hostname="DESKTOP-GJDRHVL" tests="7" failures="0" errors="0" skipped="0" time="3.4966792">
+        <testcase classname="src/App.test.tsx" name="academic register prototype &gt; keeps zero distinct from blank and filters without losing edits" time="0.4585129">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="academic register prototype &gt; validates decimal assumptions and blocks invalid saves" time="0.1855733">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="academic register prototype &gt; restores focus after Escape and permits explicit partial publication" time="0.4636091">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="academic register prototype &gt; protects dirty navigation and discards only unsaved changes" time="0.4724087">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="academic register prototype &gt; requires complete saved attendance then publishes the signed snapshot" time="0.8202919">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="academic register prototype &gt; switches child fixtures, filters actual subjects and opens progress from empty report" time="0.3295351">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="academic register prototype &gt; preserves edits through explicitly simulated failure and conflict states" time="0.765439">
+        </testcase>
+    </testsuite>
+</testsuites>

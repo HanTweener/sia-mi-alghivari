@@ -1,0 +1,32 @@
+{
+  "recorded_at": "2026-10-28T18:17:46.327Z",
+  "results": [
+    {
+      "label": "browser-final-built5173",
+      "command": "node docs/support/facelift-v2/qa/check-interactions.mjs http://127.0.0.1:5173/",
+      "chunk_id": "c1699f",
+      "wall_time_seconds": 9.5376818,
+      "exit_code": 0,
+      "original_token_count": 424,
+      "output": "T01 PASS\nT02 PASS\nT03 PASS\nT04 PASS\nT05 PASS\nT06 PASS\nT07 PASS\nT08 PASS\nT09 PASS\nT10 PASS\nT11 PASS\n[\n  {\n    \"id\": \"T01\",\n    \"description\": \"Blank differs from 0 and fixture counters reflect all eight rows\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T02\",\n    \"description\": \"Real search and blank filter preserve values and recover from no matches\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T03\",\n    \"description\": \"Format/range negatives block save; comma/dot decimals and boundaries are accepted\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T04\",\n    \"description\": \"Save is memory-only, partial publish reviewed, parent sees snapshot, draft locked\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T05\",\n    \"description\": \"Review traps keyboard, cancels without mutation and restores opener focus\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T06\",\n    \"description\": \"Dirty navigation cancel/discard behaves as stated\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T07\",\n    \"description\": \"Attendance explicit statuses, save then review/finalize and read-only snapshot\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T08\",\n    \"description\": \"Simulated loading/empty/error/conflict are labeled and recover without losing memory input\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T09\",\n    \"description\": \"Progress mapel filter counts and report empty CTA operate on selected child\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T10\",\n    \"description\": \"Skip link reaches main; small dialog fits viewport; reduced motion removes animation\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T11\",\n    \"description\": \"Typing multiple digits into blank-filter result keeps edited row until blur\",\n    \"status\": \"PASS\"\n  }\n]\n"
+    },
+    {
+      "label": "layout-final-built5173",
+      "command": "node docs/support/facelift-v2/qa/inspect-layout.mjs http://127.0.0.1:5173/",
+      "chunk_id": "af59ee",
+      "wall_time_seconds": 4.7260412,
+      "exit_code": 0,
+      "original_token_count": 386,
+      "output": "[{\"width\":320,\"screen\":\"grades\",\"scrollWidth\":320,\"clientWidth\":320,\"h1Count\":1,\"tinyText\":[]},{\"width\":320,\"screen\":\"attendance\",\"scrollWidth\":320,\"clientWidth\":320,\"h1Count\":1,\"tinyText\":[]},{\"width\":320,\"screen\":\"progress\",\"scrollWidth\":320,\"clientWidth\":320,\"h1Count\":1,\"tinyText\":[]},{\"width\":320,\"screen\":\"report\",\"scrollWidth\":320,\"clientWidth\":320,\"h1Count\":1,\"tinyText\":[]},{\"width\":390,\"screen\":\"grades\",\"scrollWidth\":390,\"clientWidth\":390,\"h1Count\":1,\"tinyText\":[]},{\"width\":390,\"screen\":\"attendance\",\"scrollWidth\":390,\"clientWidth\":390,\"h1Count\":1,\"tinyText\":[]},{\"width\":390,\"screen\":\"progress\",\"scrollWidth\":390,\"clientWidth\":390,\"h1Count\":1,\"tinyText\":[]},{\"width\":390,\"screen\":\"report\",\"scrollWidth\":390,\"clientWidth\":390,\"h1Count\":1,\"tinyText\":[]},{\"width\":768,\"screen\":\"grades\",\"scrollWidth\":768,\"clientWidth\":768,\"h1Count\":1,\"tinyText\":[]},{\"width\":768,\"screen\":\"attendance\",\"scrollWidth\":768,\"clientWidth\":768,\"h1Count\":1,\"tinyText\":[]},{\"width\":768,\"screen\":\"progress\",\"scrollWidth\":768,\"clientWidth\":768,\"h1Count\":1,\"tinyText\":[]},{\"width\":768,\"screen\":\"report\",\"scrollWidth\":768,\"clientWidth\":768,\"h1Count\":1,\"tinyText\":[]},{\"width\":1440,\"screen\":\"grades\",\"scrollWidth\":1440,\"clientWidth\":1440,\"h1Count\":1,\"tinyText\":[]},{\"width\":1440,\"screen\":\"attendance\",\"scrollWidth\":1440,\"clientWidth\":1440,\"h1Count\":1,\"tinyText\":[]},{\"width\":1440,\"screen\":\"progress\",\"scrollWidth\":1440,\"clientWidth\":1440,\"h1Count\":1,\"tinyText\":[]},{\"width\":1440,\"screen\":\"report\",\"scrollWidth\":1440,\"clientWidth\":1440,\"h1Count\":1,\"tinyText\":[]}]\n"
+    },
+    {
+      "label": "served-build-fingerprint",
+      "command": "node docs/support/facelift-v2/qa/verify-served-build.mjs http://127.0.0.1:5173/",
+      "chunk_id": "15456e",
+      "wall_time_seconds": 0.2320963,
+      "exit_code": 0,
+      "original_token_count": 305,
+      "output": "{\n  \"capturedAt\": \"2026-10-28T18:17:36.966Z\",\n  \"baseUrl\": \"http://127.0.0.1:5173/\",\n  \"results\": [\n    {\n      \"path\": \"index.html\",\n      \"expectedHash\": \"7bd40965a9352c39a8e69364b56f18788d276100096834aca0a154e165d978e3\",\n      \"receivedHash\": \"7bd40965a9352c39a8e69364b56f18788d276100096834aca0a154e165d978e3\",\n      \"bytes\": 560,\n      \"status\": \"PASS\"\n    },\n    {\n      \"path\": \"./assets/main-BVa8Nwvj.js\",\n      \"expectedHash\": \"7ce9d3f633849be259c527b218347de7e0e0f9eea0f365723bd041f2c5493459\",\n      \"receivedHash\": \"7ce9d3f633849be259c527b218347de7e0e0f9eea0f365723bd041f2c5493459\",\n      \"bytes\": 66812,\n      \"status\": \"PASS\"\n    },\n    {\n      \"path\": \"./assets/styles-CyGrZQBj.js\",\n      \"expectedHash\": \"a4f11cbb2ef1a5017978af17728ae9d2e2179dfe208e8b6f1ad6d37a4a6d9c11\",\n      \"receivedHash\": \"a4f11cbb2ef1a5017978af17728ae9d2e2179dfe208e8b6f1ad6d37a4a6d9c11\",\n      \"bytes\": 220247,\n      \"status\": \"PASS\"\n    },\n    {\n      \"path\": \"./assets/styles-DfYxhQUm.css\",\n      \"expectedHash\": \"de51ed7e0816fe436a17f562a8e5fac45a3721a44d0fdfcf170daafe5bc72811\",\n      \"receivedHash\": \"de51ed7e0816fe436a17f562a8e5fac45a3721a44d0fdfcf170daafe5bc72811\",\n      \"bytes\": 44632,\n      \"status\": \"PASS\"\n    }\n  ]\n}\n"
+    }
+  ]
+}

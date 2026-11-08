@@ -1,0 +1,150 @@
+services:
+  sia-web:
+    image: ghcr.io/hantweener/sia_mi_alghivari:latest
+    container_name: sia-web
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - APP_ENV=production
+      - APP_DEBUG=false
+      - DB_CONNECTION=mysql
+      - DB_HOST=mysql
+      - DB_PORT=3306
+      - DB_DATABASE=${DB_DATABASE:-sia_alghivari}
+      - DB_USERNAME=${DB_USERNAME:-sia_user}
+      - DB_PASSWORD=${DB_PASSWORD:-sia_secret_password}
+      - AUTO_MIGRATE=true
+      - REVERB_HOST=reverb
+      - REVERB_PORT=8080
+      - REVERB_SCHEME=http
+    # Tidak perlu mapping ports ke Windows host, karena akses publik melalui Cloudflare Tunnel
+    volumes:
+      - sia_storage_data:/app/storage/app
+    networks:
+      sia_network:
+        aliases:
+          - sia-web
+          - app
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+  mysql:
+    image: mysql:8.4
+    container_name: sia_mysql
+    restart: unless-stopped
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE:-sia_alghivari}
+      MYSQL_USER: ${DB_USERNAME:-sia_user}
+      MYSQL_PASSWORD: ${DB_PASSWORD:-sia_secret_password}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-root_secret_password}
+    # Terisolasi penuh di dalam network Docker internal (bebas tabrakan port dengan MySQL host/proyek lain)
+    volumes:
+      - sia_mysql_data:/var/lib/mysql
+    networks:
+      - sia_network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${DB_ROOT_PASSWORD:-root_secret_password}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  queue:
+    image: ghcr.io/hantweener/sia_mi_alghivari:latest
+    container_name: sia_queue
+    restart: unless-stopped
+    command: ["php", "artisan", "queue:work", "--tries=3", "--sleep=3"]
+    env_file:
+      - .env
+    environment:
+      - APP_ENV=production
+      - DB_CONNECTION=mysql
+      - DB_HOST=mysql
+      - DB_PORT=3306
+      - DB_DATABASE=${DB_DATABASE:-sia_alghivari}
+      - DB_USERNAME=${DB_USERNAME:-sia_user}
+      - DB_PASSWORD=${DB_PASSWORD:-sia_secret_password}
+      - REVERB_HOST=reverb
+      - REVERB_PORT=8080
+      - REVERB_SCHEME=http
+    healthcheck:
+      disable: true
+    volumes:
+      - sia_storage_data:/app/storage/app
+    networks:
+      - sia_network
+    depends_on:
+      sia-web:
+        condition: service_started
+      mysql:
+        condition: service_healthy
+
+  reverb:
+    image: ghcr.io/hantweener/sia_mi_alghivari:latest
+    container_name: sia_reverb
+    restart: unless-stopped
+    command: ["php", "artisan", "reverb:start", "--host=0.0.0.0", "--port=8080"]
+    env_file:
+      - .env
+    environment:
+      - APP_ENV=production
+      - DB_CONNECTION=mysql
+      - DB_HOST=mysql
+      - DB_PORT=3306
+      - DB_DATABASE=${DB_DATABASE:-sia_alghivari}
+      - DB_USERNAME=${DB_USERNAME:-sia_user}
+      - DB_PASSWORD=${DB_PASSWORD:-sia_secret_password}
+      - REVERB_SERVER_HOST=0.0.0.0
+      - REVERB_SERVER_PORT=8080
+      - REVERB_HOST=reverb
+      - REVERB_PORT=8080
+      - REVERB_SCHEME=http
+    healthcheck:
+      disable: true
+    networks:
+      sia_network:
+        aliases:
+          - sia-reverb
+          - reverb
+    depends_on:
+      sia-web:
+        condition: service_started
+      mysql:
+        condition: service_healthy
+
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: sia_tunnel
+    restart: unless-stopped
+    command: tunnel run
+    environment:
+      - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}
+    networks:
+      - sia_network
+    depends_on:
+      - sia-web
+
+  reverb_tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: sia_reverb_tunnel
+    restart: unless-stopped
+    command: tunnel run
+    environment:
+      - TUNNEL_TOKEN=${CLOUDFLARE_REVERB_TUNNEL_TOKEN}
+    networks:
+      - sia_network
+    depends_on:
+      - reverb
+
+networks:
+  sia_network:
+    name: sia_network
+    driver: bridge
+
+volumes:
+  sia_mysql_data:
+    driver: local
+  sia_storage_data:
+    driver: local

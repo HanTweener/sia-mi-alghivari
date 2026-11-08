@@ -1,0 +1,35 @@
+{
+  "results": [
+    {
+      "filename": "facelift-sia-alghivari-v2.html",
+      "width": 390,
+      "result": "PASS",
+      "scrollWidth": 390,
+      "clientWidth": 390
+    },
+    {
+      "filename": "kajian-layar-sia-alghivari-v2.html",
+      "width": 390,
+      "result": "PASS",
+      "scrollWidth": 390,
+      "clientWidth": 390
+    },
+    {
+      "filename": "facelift-sia-alghivari-v2.html",
+      "width": 1440,
+      "result": "PASS",
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    {
+      "filename": "kajian-layar-sia-alghivari-v2.html",
+      "width": 1440,
+      "result": "PASS",
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    }
+  ],
+  "errors": [],
+  "remoteRequests": [],
+  "offline": true
+}

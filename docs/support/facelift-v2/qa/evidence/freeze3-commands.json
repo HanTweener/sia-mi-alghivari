@@ -1,0 +1,50 @@
+{
+  "recorded_at": "2026-10-28T18:14:03.292Z",
+  "results": [
+    {
+      "label": "browser",
+      "command": "node docs/support/facelift-v2/qa/check-interactions.mjs",
+      "chunk_id": "516abd",
+      "wall_time_seconds": 10.0117879,
+      "session_id": 71106,
+      "original_token_count": 23,
+      "output": "T01 PASS\nT02 PASS\nT03 PASS\nT04 PASS\nT05 PASS\nT06 PASS\nT07 PASS\nT08 PASS\nT09 PASS\nT10 PASS\n"
+    },
+    {
+      "label": "layout",
+      "command": "node docs/support/facelift-v2/qa/inspect-layout.mjs",
+      "chunk_id": "85a372",
+      "wall_time_seconds": 5.028155,
+      "exit_code": 0,
+      "original_token_count": 386,
+      "output": "[{\"width\":320,\"screen\":\"grades\",\"scrollWidth\":320,\"clientWidth\":320,\"h1Count\":1,\"tinyText\":[]},{\"width\":320,\"screen\":\"attendance\",\"scrollWidth\":320,\"clientWidth\":320,\"h1Count\":1,\"tinyText\":[]},{\"width\":320,\"screen\":\"progress\",\"scrollWidth\":320,\"clientWidth\":320,\"h1Count\":1,\"tinyText\":[]},{\"width\":320,\"screen\":\"report\",\"scrollWidth\":320,\"clientWidth\":320,\"h1Count\":1,\"tinyText\":[]},{\"width\":390,\"screen\":\"grades\",\"scrollWidth\":390,\"clientWidth\":390,\"h1Count\":1,\"tinyText\":[]},{\"width\":390,\"screen\":\"attendance\",\"scrollWidth\":390,\"clientWidth\":390,\"h1Count\":1,\"tinyText\":[]},{\"width\":390,\"screen\":\"progress\",\"scrollWidth\":390,\"clientWidth\":390,\"h1Count\":1,\"tinyText\":[]},{\"width\":390,\"screen\":\"report\",\"scrollWidth\":390,\"clientWidth\":390,\"h1Count\":1,\"tinyText\":[]},{\"width\":768,\"screen\":\"grades\",\"scrollWidth\":768,\"clientWidth\":768,\"h1Count\":1,\"tinyText\":[]},{\"width\":768,\"screen\":\"attendance\",\"scrollWidth\":768,\"clientWidth\":768,\"h1Count\":1,\"tinyText\":[]},{\"width\":768,\"screen\":\"progress\",\"scrollWidth\":768,\"clientWidth\":768,\"h1Count\":1,\"tinyText\":[]},{\"width\":768,\"screen\":\"report\",\"scrollWidth\":768,\"clientWidth\":768,\"h1Count\":1,\"tinyText\":[]},{\"width\":1440,\"screen\":\"grades\",\"scrollWidth\":1440,\"clientWidth\":1440,\"h1Count\":1,\"tinyText\":[]},{\"width\":1440,\"screen\":\"attendance\",\"scrollWidth\":1440,\"clientWidth\":1440,\"h1Count\":1,\"tinyText\":[]},{\"width\":1440,\"screen\":\"progress\",\"scrollWidth\":1440,\"clientWidth\":1440,\"h1Count\":1,\"tinyText\":[]},{\"width\":1440,\"screen\":\"report\",\"scrollWidth\":1440,\"clientWidth\":1440,\"h1Count\":1,\"tinyText\":[]}]\n"
+    },
+    {
+      "label": "vitest",
+      "command": "npm run test -- --reporter=default --reporter=junit --outputFile=../qa/evidence/vitest-results.xml",
+      "chunk_id": "174240",
+      "wall_time_seconds": 5.5144335,
+      "exit_code": 0,
+      "original_token_count": 268,
+      "output": "\n> sia-alghivari-facelift-review@0.1.0 test\n> vitest run --reporter=default --reporter=junit --outputFile=../qa/evidence/vitest-results.xml\n\n\n RUN  v4.1.12 E:/Repo/Privates/sia_mi_alghivari/docs/support/facelift-v2/prototype\n\n ✓ src/App.test.tsx (7 tests) 3496ms\n     ✓ keeps zero distinct from blank and filters without losing edits  476ms\n     ✓ restores focus after Escape and permits explicit partial publication  456ms\n     ✓ protects dirty navigation and discards only unsaved changes  469ms\n     ✓ requires complete saved attendance then publishes the signed snapshot  854ms\n     ✓ switches child fixtures, filters actual subjects and opens progress from empty report  342ms\n     ✓ preserves edits through explicitly simulated failure and conflict states  714ms\n\n Test Files  1 passed (1)\n      Tests  7 passed (7)\n   Start at  01:13:54\n   Duration  4.45s (transform 160ms, setup 179ms, import 359ms, tests 3.50s, environment 301ms)\n\nJUNIT report written to E:/Repo/Privates/sia_mi_alghivari/docs/support/facelift-v2/qa/evidence/vitest-results.xml\n"
+    },
+    {
+      "label": "format",
+      "command": "npm run format:check",
+      "chunk_id": "849841",
+      "wall_time_seconds": 1.0264624,
+      "exit_code": 0,
+      "original_token_count": 42,
+      "output": "\n> sia-alghivari-facelift-review@0.1.0 format:check\n> prettier --check src index.html *.json *.ts\n\nChecking formatting...\nAll matched files use Prettier code style!\n"
+    },
+    {
+      "label": "structure",
+      "command": "python .ai/tools/source_structure_audit.py --root . --paths docs/support/facelift-v2/prototype/src",
+      "chunk_id": "94bc85",
+      "wall_time_seconds": 0.312846,
+      "exit_code": 0,
+      "original_token_count": 57,
+      "output": "Source structure: 23 files, 0 errors, 0 warnings, 0 skipped\r\nHeuristic check of human-maintained source formatting; does not prove semantic architecture or code correctness. Warnings require review but do not fail by default.\r\n"
+    }
+  ]
+}

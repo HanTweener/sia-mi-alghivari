@@ -1,0 +1,35 @@
+[
+  {
+    "check": "build",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "3d2a34",
+      "wall_time_seconds": 3.4414398,
+      "exit_code": 0,
+      "original_token_count": 166,
+      "output": "\n> sia-alghivari-facelift-review@0.1.0 build\n> tsc --noEmit && vite build\n\nvite v6.4.5 building for production...\ntransforming...\n✓ 1651 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                     0.56 kB │ gzip:  0.34 kB\ndist/studies.html                   0.63 kB │ gzip:  0.34 kB\ndist/assets/studies-DCU2t4ri.css    7.73 kB │ gzip:  1.94 kB\ndist/assets/styles-D1GMzpWk.css    23.53 kB │ gzip:  5.87 kB\ndist/assets/studies-DceS8BK7.js    15.52 kB │ gzip:  4.35 kB\ndist/assets/main-DW8f8vKA.js       57.56 kB │ gzip: 18.10 kB\ndist/assets/styles-DmT123Ls.js    216.79 kB │ gzip: 68.51 kB\n✓ built in 1.39s\n"
+    }
+  },
+  {
+    "check": "format",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "424fac",
+      "wall_time_seconds": 0.9168409,
+      "exit_code": 0,
+      "original_token_count": 42,
+      "output": "\n> sia-alghivari-facelift-review@0.1.0 format:check\n> prettier --check src index.html *.json *.ts\n\nChecking formatting...\nAll matched files use Prettier code style!\n"
+    }
+  },
+  {
+    "check": "source-structure",
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "cea191",
+      "wall_time_seconds": 0.3398921,
+      "exit_code": 0,
+      "original_token_count": 57,
+      "output": "Source structure: 19 files, 0 errors, 0 warnings, 0 skipped\r\nHeuristic check of human-maintained source formatting; does not prove semantic architecture or code correctness. Warnings require review but do not fail by default.\r\n"
+    }
+  }
+]

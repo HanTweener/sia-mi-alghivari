@@ -1,0 +1,65 @@
+{
+  "captured_at_utc": "2026-10-29T03:16:44.828950+00:00",
+  "files": [
+    {
+      "path": "COLOR_REFRESH.md",
+      "sha256": "b117af0daa13e8d3b2456d6e3646127db87786a0a97836ea6e05271374a28a04",
+      "bytes": 3501
+    },
+    {
+      "path": "README.md",
+      "sha256": "5c66f1adb7ec32fe7e8495f3d76e747181fd07d2d4bd1c4aeb0f285f023e26c2",
+      "bytes": 5336
+    },
+    {
+      "path": "REDESIGN_SPEC.md",
+      "sha256": "057ffbd0c820fb8e85fc526d47465b1f0cf0c239cf6f328723154aeae2cc9e3d",
+      "bytes": 17288
+    },
+    {
+      "path": "REVIEW_REPORT.md",
+      "sha256": "1237b640b5473b7b591c8e5822434ebb3df63e6dc9e4326e8d36ed772ed65f62",
+      "bytes": 6354
+    },
+    {
+      "path": "STYLING_CONVENTIONS.md",
+      "sha256": "8e142f87b65b7a8a274995fb48faa15d597b42cdea5cf0eebcb696e82ef9d1cc",
+      "bytes": 4722
+    },
+    {
+      "path": "SKILL_REBUILD.md",
+      "sha256": "fe21c8c83771a67040c14ee6f2e51fb720bc55147c428193fa2dbb506a7a4324",
+      "bytes": 13846
+    },
+    {
+      "path": "facelift-sia-alghivari-v2.html",
+      "sha256": "c33205c5e01281259f30a8999e467ae1ebac98817b6057923681ba0d33369434",
+      "bytes": 332241
+    },
+    {
+      "path": "kajian-layar-sia-alghivari-v2.html",
+      "sha256": "c0415510d10e413a547b2d87e682748c4f08ccfa8753c96aa8b33291658945fd",
+      "bytes": 288189
+    },
+    {
+      "path": "sia-alghivari-facelift-v2.pdf",
+      "sha256": "503e224294b320a51fb4c8a898caae3abc2d05841b60f91f2a9265f84f38ac8a",
+      "bytes": 969043
+    },
+    {
+      "path": "qa/verification-report.md",
+      "sha256": "7b15ee65c2147e6d4cb9abdd04882c035b6b19e751a810628f661c7f6487ee91",
+      "bytes": 14175
+    },
+    {
+      "path": "qa/rebuild-report.md",
+      "sha256": "a667c05bc514d6166463b201970e059084d93c86aadb7b9e8a9165c9ef1076e5",
+      "bytes": 5101
+    },
+    {
+      "path": "prototype/src/styles.css",
+      "sha256": "09f68ad0b5b35aa17b4c4d7eda34154b39f1cbebc3ee4a1e5826d36fd8011bfe",
+      "bytes": 3232
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-29T03:04:03.036Z",
+  "baseUrl": "http://127.0.0.1:5173/",
+  "browser": "156.0.8078.4",
+  "results": [
+    {
+      "id": "T01",
+      "description": "Blank differs from 0 and fixture counters reflect all eight rows",
+      "status": "PASS"
+    },
+    {
+      "id": "T02",
+      "description": "Real search and blank filter preserve values and recover from no matches",
+      "status": "PASS"
+    },
+    {
+      "id": "T03",
+      "description": "Format/range negatives block save; comma/dot decimals and boundaries are accepted",
+      "status": "PASS"
+    },
+    {
+      "id": "T04",
+      "description": "Save is memory-only, partial publish reviewed, parent sees snapshot, draft locked",
+      "status": "PASS"
+    },
+    {
+      "id": "T05",
+      "description": "Review traps keyboard, cancels without mutation and restores opener focus",
+      "status": "PASS"
+    },
+    {
+      "id": "T06",
+      "description": "Dirty navigation cancel/discard behaves as stated",
+      "status": "PASS"
+    },
+    {
+      "id": "T07",
+      "description": "Attendance explicit statuses, save then review/finalize and read-only snapshot",
+      "status": "PASS"
+    },
+    {
+      "id": "T08",
+      "description": "Simulated loading/empty/error/conflict are labeled and recover without losing memory input",
+      "status": "PASS"
+    },
+    {
+      "id": "T09",
+      "description": "Progress mapel filter counts and report empty CTA operate on selected child",
+      "status": "PASS"
+    },
+    {
+      "id": "T10",
+      "description": "Skip link reaches main; small dialog fits viewport; reduced motion removes animation",
+      "status": "PASS"
+    },
+    {
+      "id": "T11",
+      "description": "Typing multiple digits into blank-filter result keeps edited row until blur",
+      "status": "PASS"
+    },
+    {
+      "id": "T12",
+      "description": "Mobile menu Escape restores focus; navigation closes; dirty cancel/discard retains intent",
+      "status": "PASS"
+    },
+    {
+      "id": "T13",
+      "description": "Saved assessment and unsigned saved attendance remain absent from guardian progress",
+      "status": "PASS"
+    }
+  ]
+}

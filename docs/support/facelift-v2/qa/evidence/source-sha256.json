@@ -1,0 +1,188 @@
+{
+  "captured_at_utc": "2026-10-29T03:14:55.399789+00:00",
+  "revision": "No Git repository; SHA-256 identifies inspected source files",
+  "files": [
+    {
+      "path": "src/App.test.tsx",
+      "sha256": "64e28a74077bc8beef31204c0d87870967dc5b7825c0281079f06fbc4683f98f"
+    },
+    {
+      "path": "src/App.tsx",
+      "sha256": "c83f6f6e1d3be171e620ccc4be1e1abecc42716aae1dc560ecadaf6d06fe3270"
+    },
+    {
+      "path": "src/components/Attendance.tsx",
+      "sha256": "182b770c2d78c151117b78016a8fed1c7dfdd8d501786fa4104886fe88370072"
+    },
+    {
+      "path": "src/components/GradeRegister.tsx",
+      "sha256": "8d667234a82f0ac99e0a780815929ff985cdc42bfb182e9f2d574353059f9e2f"
+    },
+    {
+      "path": "src/components/Guardian.tsx",
+      "sha256": "110b608671b31a8e69bc3da4b601cb91daa3a9066e7935dfcf20c7f61c121b8c"
+    },
+    {
+      "path": "src/components/PupilIdentity.tsx",
+      "sha256": "666750610e84e460deb6d1b55040b2c87af1310c5248cb77910e9f3974e2a22c"
+    },
+    {
+      "path": "src/components/StatePanel.tsx",
+      "sha256": "2bd60a07472b4ec5e928e580a514965b54a1edd235a452f793300798a836c8fd"
+    },
+    {
+      "path": "src/components/ui/alert.tsx",
+      "sha256": "f8b8c1cf8740a5db90b07e03574ffb56fbdd83fafc25886320ee37d608072b09"
+    },
+    {
+      "path": "src/components/ui/badge.tsx",
+      "sha256": "f8b5c707e34cf08b77665f66807e10181952f30e9219f51c733f193b8d816ca6"
+    },
+    {
+      "path": "src/components/ui/button.tsx",
+      "sha256": "76aef66f6e68a878500fcf067b5c1305836b215db5ddfe4ba1e656d730c4cba8"
+    },
+    {
+      "path": "src/components/ui/dialog.registry.tsx",
+      "sha256": "c2684bd793a2fa878c21ed2c99e750830c07f76e7bc6f4c68efa64d0320fe2ea"
+    },
+    {
+      "path": "src/components/ui/dialog.tsx",
+      "sha256": "059bc65f4b42f07661755508a03852675bb319116a58a12767ef206db5966909"
+    },
+    {
+      "path": "src/components/ui/input.tsx",
+      "sha256": "6af2916ac3e443be9693fb369d506eec02260bf830be547610caf1fa4e0a7658"
+    },
+    {
+      "path": "src/components/ui/label.tsx",
+      "sha256": "5ab115cd1e9706a78a3e61665ae1027b816e9b2b301fd0743817dcbeb0ff567e"
+    },
+    {
+      "path": "src/components/ui/native-select.tsx",
+      "sha256": "435a9fa0071f635e2b7dab81e1bdb971a35c100a0f2736a78230b870eaaff2dd"
+    },
+    {
+      "path": "src/components/ui/table.tsx",
+      "sha256": "baaa3943b841e1f88e40d73709c7d6707a9d338cbc6153cebd5e8753c0f34d07"
+    },
+    {
+      "path": "src/components/ui/textarea.tsx",
+      "sha256": "6015a5bf2103a2ec32d11e875d9b70c55474c6bafb4d2eeeccda4aa4563dddff"
+    },
+    {
+      "path": "src/components/ui/utils.ts",
+      "sha256": "d1f1e0d62cb8d8d1e04c26e14de842d8a151f75812d81b046c65b5d1fe8e4b27"
+    },
+    {
+      "path": "src/data.ts",
+      "sha256": "dbddc31c4639d8a5ea533ed004b7a0585319f14d3e4ddea6759455d4f2a42888"
+    },
+    {
+      "path": "src/main.tsx",
+      "sha256": "41431cb94a112ca05f90ca6037229d09d4bb8ecc1c27ae3bb3740ace8f01d2a6"
+    },
+    {
+      "path": "src/studies.tsx",
+      "sha256": "d48445cb0ce79f07cd8b4ad9f1f31c571175e976c78b61e9d9dfd4f4f9192a52"
+    },
+    {
+      "path": "src/styles.css",
+      "sha256": "09f68ad0b5b35aa17b4c4d7eda34154b39f1cbebc3ee4a1e5826d36fd8011bfe"
+    },
+    {
+      "path": "src/test-setup.ts",
+      "sha256": "c2ccf2417a8183a91935356b3d91c9aefc75b23abe2e72e335e671c12654f65d"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "e8bc935ce727f1809c792f4c5d26c5fc75ba2b7df7fc9390c56c8892f6a6007f"
+    },
+    {
+      "path": "index.html",
+      "sha256": "f3e5ba892bfdffccc0f506f525109f0e6e5e83f4a4e032c78dba39b9c9b4982a"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "9272ddd6fed327a335d50e9896dc011d6fe6315ceb3077b9a8feba7208ea430b"
+    },
+    {
+      "path": "package.json",
+      "sha256": "ebb44061d5e42582cc3b3fa0201c1141f50fbf803a27fecca23b462946939bd2"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "552e8084c5ec8ff6f86a24a18edb384d361e8ddb9baeb17aa2a15f0b3c384fdd"
+    },
+    {
+      "path": "README.md",
+      "sha256": "ab5d83ccd4c10956ca8483d1d6c17d0587fd2827d8f1fddd9d7d2b74ce52200c"
+    },
+    {
+      "path": "SHADCN-LICENSE.md",
+      "sha256": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f"
+    },
+    {
+      "path": "studies.html",
+      "sha256": "0d72ead4902fdee2256604d950b70be1eedb5e18d4ba13a5f50ae490a0bf021e"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "da9b360cf88d7d4223b18910a61b652a940504698469bbccead1e3efdce42de4"
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "2b8e3907197f6173f00ccbfcad69ddca83bdd3603f72f285881a2c9431dfe2ed"
+    }
+  ],
+  "built_files": [
+    {
+      "path": "assets/main-DOaH4Q7u.js",
+      "sha256": "65af0a2d51c0599ec704a661d6a4ac2648089dcb5fae87c1732dbfd2828cba2d"
+    },
+    {
+      "path": "assets/studies-C7eyAfhr.js",
+      "sha256": "441079ffcc3fd21833ff69e016f37cd6795e20e95883ea4d38f4f09da0cb71d4"
+    },
+    {
+      "path": "assets/styles-61p0JCk7.css",
+      "sha256": "cfa760781e115b2bb9df64f9c768b0a1bcac2c9d652d5c2c9dd956244f21f7e6"
+    },
+    {
+      "path": "assets/styles-BQb9VoRq.js",
+      "sha256": "3b6edf8fa40c620a0956695b2f6e34c8925125a7c662fae027038e62a17c1d6d"
+    },
+    {
+      "path": "index.html",
+      "sha256": "227d087b20cc3c5439e1b4e57fe5ab148d4093cd08f6d14bd6db02a9ea21af2f"
+    },
+    {
+      "path": "standalone-index/assets/index-61p0JCk7.css",
+      "sha256": "cfa760781e115b2bb9df64f9c768b0a1bcac2c9d652d5c2c9dd956244f21f7e6"
+    },
+    {
+      "path": "standalone-index/assets/index-BTEZtn0E.js",
+      "sha256": "9b5d5a56990c22ce0d119553d4bbee2df3672612c920370c220fb1b2f722b19a"
+    },
+    {
+      "path": "standalone-index/index.html",
+      "sha256": "c28982fce2250874fea13acd72d2a7e8ac9e1258eb5039a16d25df6c189ab77a"
+    },
+    {
+      "path": "standalone-studies/assets/studies-61p0JCk7.css",
+      "sha256": "cfa760781e115b2bb9df64f9c768b0a1bcac2c9d652d5c2c9dd956244f21f7e6"
+    },
+    {
+      "path": "standalone-studies/assets/studies-uCnBwBZN.js",
+      "sha256": "e23104d873cb564923c066c8ecae27567a50f82e6af764f813ff74e09b43fc61"
+    },
+    {
+      "path": "standalone-studies/studies.html",
+      "sha256": "940ae8c6c051dc8d43c43a561529266b279454a6d83197c4583da3cc7343e6d0"
+    },
+    {
+      "path": "studies.html",
+      "sha256": "95c6928a6282894b8af84266e9bd2ff34956d160e28314c8c5d4de57aab69dec"
+    }
+  ]
+}

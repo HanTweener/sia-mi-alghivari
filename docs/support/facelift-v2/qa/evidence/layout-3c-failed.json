@@ -1,0 +1,210 @@
+[
+  {
+    "width": 320,
+    "screen": "grades",
+    "scrollWidth": 320,
+    "clientWidth": 320,
+    "h1Count": 1,
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "tinyText": []
+  },
+  {
+    "width": 320,
+    "screen": "attendance",
+    "scrollWidth": 320,
+    "clientWidth": 320,
+    "h1Count": 1,
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "tinyText": []
+  },
+  {
+    "width": 320,
+    "screen": "progress",
+    "scrollWidth": 320,
+    "clientWidth": 320,
+    "h1Count": 1,
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "tinyText": []
+  },
+  {
+    "width": 320,
+    "screen": "report",
+    "scrollWidth": 320,
+    "clientWidth": 320,
+    "h1Count": 1,
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "tinyText": []
+  },
+  {
+    "width": 390,
+    "screen": "grades",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "h1Count": 1,
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "tinyText": []
+  },
+  {
+    "width": 390,
+    "screen": "attendance",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "h1Count": 1,
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "tinyText": []
+  },
+  {
+    "width": 390,
+    "screen": "progress",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "h1Count": 1,
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "tinyText": []
+  },
+  {
+    "width": 390,
+    "screen": "report",
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "h1Count": 1,
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "tinyText": []
+  },
+  {
+    "width": 768,
+    "screen": "grades",
+    "scrollWidth": 794,
+    "clientWidth": 768,
+    "h1Count": 1,
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "tinyText": []
+  },
+  {
+    "width": 768,
+    "screen": "attendance",
+    "scrollWidth": 794,
+    "clientWidth": 768,
+    "h1Count": 1,
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "tinyText": []
+  },
+  {
+    "width": 768,
+    "screen": "progress",
+    "scrollWidth": 794,
+    "clientWidth": 768,
+    "h1Count": 1,
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "tinyText": []
+  },
+  {
+    "width": 768,
+    "screen": "report",
+    "scrollWidth": 794,
+    "clientWidth": 768,
+    "h1Count": 1,
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "tinyText": []
+  },
+  {
+    "width": 1440,
+    "screen": "grades",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "h1Count": 1,
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "tinyText": []
+  },
+  {
+    "width": 1440,
+    "screen": "attendance",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "h1Count": 1,
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "tinyText": []
+  },
+  {
+    "width": 1440,
+    "screen": "progress",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "h1Count": 1,
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "tinyText": []
+  },
+  {
+    "width": 1440,
+    "screen": "report",
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "h1Count": 1,
+    "scenarioSelect": {
+      "textWidth": 76.20703125,
+      "availableWidth": 91,
+      "textFits": true
+    },
+    "tinyText": []
+  }
+]

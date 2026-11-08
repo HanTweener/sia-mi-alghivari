@@ -1,0 +1,117 @@
+{
+  "results": [
+    {
+      "screen": "login",
+      "width": 390,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "heading": "Masuk ke akun sekolah",
+      "headingCount": 1
+    },
+    {
+      "screen": "jobs",
+      "width": 390,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "heading": "Pekerjaan mengajar",
+      "headingCount": 1
+    },
+    {
+      "screen": "admin",
+      "width": 390,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "heading": "Kelas & penugasan",
+      "headingCount": 1
+    },
+    {
+      "screen": "policy",
+      "width": 390,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "heading": "Aturan penilaian global",
+      "headingCount": 1
+    },
+    {
+      "screen": "reports",
+      "width": 390,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "heading": "Tinjau kesiapan rapor",
+      "headingCount": 1
+    },
+    {
+      "screen": "decisions",
+      "width": 390,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "heading": "Tinjau usulan kenaikan",
+      "headingCount": 1
+    },
+    {
+      "screen": "audit",
+      "width": 390,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "heading": "Riwayat perubahan",
+      "headingCount": 1
+    },
+    {
+      "screen": "login",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "heading": "Masuk ke akun sekolah",
+      "headingCount": 1
+    },
+    {
+      "screen": "jobs",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "heading": "Pekerjaan mengajar",
+      "headingCount": 1
+    },
+    {
+      "screen": "admin",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "heading": "Kelas & penugasan",
+      "headingCount": 1
+    },
+    {
+      "screen": "policy",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "heading": "Aturan penilaian global",
+      "headingCount": 1
+    },
+    {
+      "screen": "reports",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "heading": "Tinjau kesiapan rapor",
+      "headingCount": 1
+    },
+    {
+      "screen": "decisions",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "heading": "Tinjau usulan kenaikan",
+      "headingCount": 1
+    },
+    {
+      "screen": "audit",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "heading": "Riwayat perubahan",
+      "headingCount": 1
+    }
+  ],
+  "errors": []
+}

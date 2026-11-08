@@ -1,0 +1,34 @@
+{
+  "capturedAt": "2026-10-29T03:14:21.159Z",
+  "baseUrl": "http://127.0.0.1:5173/",
+  "results": [
+    {
+      "path": "index.html",
+      "expectedHash": "227d087b20cc3c5439e1b4e57fe5ab148d4093cd08f6d14bd6db02a9ea21af2f",
+      "receivedHash": "227d087b20cc3c5439e1b4e57fe5ab148d4093cd08f6d14bd6db02a9ea21af2f",
+      "bytes": 560,
+      "status": "PASS"
+    },
+    {
+      "path": "./assets/main-DOaH4Q7u.js",
+      "expectedHash": "65af0a2d51c0599ec704a661d6a4ac2648089dcb5fae87c1732dbfd2828cba2d",
+      "receivedHash": "65af0a2d51c0599ec704a661d6a4ac2648089dcb5fae87c1732dbfd2828cba2d",
+      "bytes": 67148,
+      "status": "PASS"
+    },
+    {
+      "path": "./assets/styles-BQb9VoRq.js",
+      "expectedHash": "3b6edf8fa40c620a0956695b2f6e34c8925125a7c662fae027038e62a17c1d6d",
+      "receivedHash": "3b6edf8fa40c620a0956695b2f6e34c8925125a7c662fae027038e62a17c1d6d",
+      "bytes": 220246,
+      "status": "PASS"
+    },
+    {
+      "path": "./assets/styles-61p0JCk7.css",
+      "expectedHash": "cfa760781e115b2bb9df64f9c768b0a1bcac2c9d652d5c2c9dd956244f21f7e6",
+      "receivedHash": "cfa760781e115b2bb9df64f9c768b0a1bcac2c9d652d5c2c9dd956244f21f7e6",
+      "bytes": 44399,
+      "status": "PASS"
+    }
+  ]
+}

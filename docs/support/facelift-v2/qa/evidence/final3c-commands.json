@@ -1,0 +1,59 @@
+{
+  "recorded_at": "2026-10-28T18:19:42.812Z",
+  "results": [
+    {
+      "label": "browser-final3c",
+      "command": "node docs/support/facelift-v2/qa/check-interactions.mjs http://127.0.0.1:5173/",
+      "chunk_id": "cff0c1",
+      "wall_time_seconds": 9.6961935,
+      "exit_code": 0,
+      "original_token_count": 424,
+      "output": "T01 PASS\nT02 PASS\nT03 PASS\nT04 PASS\nT05 PASS\nT06 PASS\nT07 PASS\nT08 PASS\nT09 PASS\nT10 PASS\nT11 PASS\n[\n  {\n    \"id\": \"T01\",\n    \"description\": \"Blank differs from 0 and fixture counters reflect all eight rows\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T02\",\n    \"description\": \"Real search and blank filter preserve values and recover from no matches\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T03\",\n    \"description\": \"Format/range negatives block save; comma/dot decimals and boundaries are accepted\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T04\",\n    \"description\": \"Save is memory-only, partial publish reviewed, parent sees snapshot, draft locked\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T05\",\n    \"description\": \"Review traps keyboard, cancels without mutation and restores opener focus\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T06\",\n    \"description\": \"Dirty navigation cancel/discard behaves as stated\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T07\",\n    \"description\": \"Attendance explicit statuses, save then review/finalize and read-only snapshot\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T08\",\n    \"description\": \"Simulated loading/empty/error/conflict are labeled and recover without losing memory input\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T09\",\n    \"description\": \"Progress mapel filter counts and report empty CTA operate on selected child\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T10\",\n    \"description\": \"Skip link reaches main; small dialog fits viewport; reduced motion removes animation\",\n    \"status\": \"PASS\"\n  },\n  {\n    \"id\": \"T11\",\n    \"description\": \"Typing multiple digits into blank-filter result keeps edited row until blur\",\n    \"status\": \"PASS\"\n  }\n]\n"
+    },
+    {
+      "label": "layout-final3c",
+      "command": "node docs/support/facelift-v2/qa/inspect-layout.mjs http://127.0.0.1:5173/",
+      "chunk_id": "0d5e1e",
+      "wall_time_seconds": 4.8151538,
+      "exit_code": 0,
+      "original_token_count": 702,
+      "output": "[{\"width\":320,\"screen\":\"grades\",\"scrollWidth\":320,\"clientWidth\":320,\"h1Count\":1,\"scenarioSelect\":{\"textWidth\":76.20703125,\"availableWidth\":91,\"textFits\":true},\"tinyText\":[]},{\"width\":320,\"screen\":\"attendance\",\"scrollWidth\":320,\"clientWidth\":320,\"h1Count\":1,\"scenarioSelect\":{\"textWidth\":76.20703125,\"availableWidth\":91,\"textFits\":true},\"tinyText\":[]},{\"width\":320,\"screen\":\"progress\",\"scrollWidth\":320,\"clientWidth\":320,\"h1Count\":1,\"scenarioSelect\":{\"textWidth\":76.20703125,\"availableWidth\":91,\"textFits\":true},\"tinyText\":[]},{\"width\":320,\"screen\":\"report\",\"scrollWidth\":320,\"clientWidth\":320,\"h1Count\":1,\"scenarioSelect\":{\"textWidth\":76.20703125,\"availableWidth\":91,\"textFits\":true},\"tinyText\":[]},{\"width\":390,\"screen\":\"grades\",\"scrollWidth\":390,\"clientWidth\":390,\"h1Count\":1,\"scenarioSelect\":{\"textWidth\":76.20703125,\"availableWidth\":91,\"textFits\":true},\"tinyText\":[]},{\"width\":390,\"screen\":\"attendance\",\"scrollWidth\":390,\"clientWidth\":390,\"h1Count\":1,\"scenarioSelect\":{\"textWidth\":76.20703125,\"availableWidth\":91,\"textFits\":true},\"tinyText\":[]},{\"width\":390,\"screen\":\"progress\",\"scrollWidth\":390,\"clientWidth\":390,\"h1Count\":1,\"scenarioSelect\":{\"textWidth\":76.20703125,\"availableWidth\":91,\"textFits\":true},\"tinyText\":[]},{\"width\":390,\"screen\":\"report\",\"scrollWidth\":390,\"clientWidth\":390,\"h1Count\":1,\"scenarioSelect\":{\"textWidth\":76.20703125,\"availableWidth\":91,\"textFits\":true},\"tinyText\":[]},{\"width\":768,\"screen\":\"grades\",\"scrollWidth\":794,\"clientWidth\":768,\"h1Count\":1,\"scenarioSelect\":{\"textWidth\":76.20703125,\"availableWidth\":91,\"textFits\":true},\"tinyText\":[]},{\"width\":768,\"screen\":\"attendance\",\"scrollWidth\":794,\"clientWidth\":768,\"h1Count\":1,\"scenarioSelect\":{\"textWidth\":76.20703125,\"availableWidth\":91,\"textFits\":true},\"tinyText\":[]},{\"width\":768,\"screen\":\"progress\",\"scrollWidth\":794,\"clientWidth\":768,\"h1Count\":1,\"scenarioSelect\":{\"textWidth\":76.20703125,\"availableWidth\":91,\"textFits\":true},\"tinyText\":[]},{\"width\":768,\"screen\":\"report\",\"scrollWidth\":794,\"clientWidth\":768,\"h1Count\":1,\"scenarioSelect\":{\"textWidth\":76.20703125,\"availableWidth\":91,\"textFits\":true},\"tinyText\":[]},{\"width\":1440,\"screen\":\"grades\",\"scrollWidth\":1440,\"clientWidth\":1440,\"h1Count\":1,\"scenarioSelect\":{\"textWidth\":76.20703125,\"availableWidth\":91,\"textFits\":true},\"tinyText\":[]},{\"width\":1440,\"screen\":\"attendance\",\"scrollWidth\":1440,\"clientWidth\":1440,\"h1Count\":1,\"scenarioSelect\":{\"textWidth\":76.20703125,\"availableWidth\":91,\"textFits\":true},\"tinyText\":[]},{\"width\":1440,\"screen\":\"progress\",\"scrollWidth\":1440,\"clientWidth\":1440,\"h1Count\":1,\"scenarioSelect\":{\"textWidth\":76.20703125,\"availableWidth\":91,\"textFits\":true},\"tinyText\":[]},{\"width\":1440,\"screen\":\"report\",\"scrollWidth\":1440,\"clientWidth\":1440,\"h1Count\":1,\"scenarioSelect\":{\"textWidth\":76.20703125,\"availableWidth\":91,\"textFits\":true},\"tinyText\":[]}]\n"
+    },
+    {
+      "label": "served-final3c",
+      "command": "node docs/support/facelift-v2/qa/verify-served-build.mjs http://127.0.0.1:5173/",
+      "chunk_id": "f0cff7",
+      "wall_time_seconds": 0.3464997,
+      "exit_code": 0,
+      "original_token_count": 305,
+      "output": "{\n  \"capturedAt\": \"2026-10-28T18:19:33.387Z\",\n  \"baseUrl\": \"http://127.0.0.1:5173/\",\n  \"results\": [\n    {\n      \"path\": \"index.html\",\n      \"expectedHash\": \"5942ad19c453a8e880350248a123a5e5065e18e2320887c446bfd09bee07581c\",\n      \"receivedHash\": \"5942ad19c453a8e880350248a123a5e5065e18e2320887c446bfd09bee07581c\",\n      \"bytes\": 560,\n      \"status\": \"PASS\"\n    },\n    {\n      \"path\": \"./assets/main-Cc2qEPcS.js\",\n      \"expectedHash\": \"e001a61af182dfc4b364f13b6eae874576189dfbef7c3163a3e828bbd7c2f44b\",\n      \"receivedHash\": \"e001a61af182dfc4b364f13b6eae874576189dfbef7c3163a3e828bbd7c2f44b\",\n      \"bytes\": 66842,\n      \"status\": \"PASS\"\n    },\n    {\n      \"path\": \"./assets/styles-CyGrZQBj.js\",\n      \"expectedHash\": \"a4f11cbb2ef1a5017978af17728ae9d2e2179dfe208e8b6f1ad6d37a4a6d9c11\",\n      \"receivedHash\": \"a4f11cbb2ef1a5017978af17728ae9d2e2179dfe208e8b6f1ad6d37a4a6d9c11\",\n      \"bytes\": 220247,\n      \"status\": \"PASS\"\n    },\n    {\n      \"path\": \"./assets/styles-DfYxhQUm.css\",\n      \"expectedHash\": \"de51ed7e0816fe436a17f562a8e5fac45a3721a44d0fdfcf170daafe5bc72811\",\n      \"receivedHash\": \"de51ed7e0816fe436a17f562a8e5fac45a3721a44d0fdfcf170daafe5bc72811\",\n      \"bytes\": 44632,\n      \"status\": \"PASS\"\n    }\n  ]\n}\n"
+    },
+    {
+      "label": "vitest-final3c",
+      "command": "npm run test -- --reporter=default --reporter=junit --outputFile=../qa/evidence/vitest-results.xml",
+      "chunk_id": "eabf33",
+      "wall_time_seconds": 5.5876333,
+      "exit_code": 0,
+      "original_token_count": 268,
+      "output": "\n> sia-alghivari-facelift-review@0.1.0 test\n> vitest run --reporter=default --reporter=junit --outputFile=../qa/evidence/vitest-results.xml\n\n\n RUN  v4.1.12 E:/Repo/Privates/sia_mi_alghivari/docs/support/facelift-v2/prototype\n\n ✓ src/App.test.tsx (7 tests) 3568ms\n     ✓ keeps zero distinct from blank and filters without losing edits  461ms\n     ✓ restores focus after Escape and permits explicit partial publication  499ms\n     ✓ protects dirty navigation and discards only unsaved changes  504ms\n     ✓ requires complete saved attendance then publishes the signed snapshot  857ms\n     ✓ switches child fixtures, filters actual subjects and opens progress from empty report  342ms\n     ✓ preserves edits through explicitly simulated failure and conflict states  720ms\n\n Test Files  1 passed (1)\n      Tests  7 passed (7)\n   Start at  01:19:34\n   Duration  4.51s (transform 165ms, setup 139ms, import 376ms, tests 3.57s, environment 310ms)\n\nJUNIT report written to E:/Repo/Privates/sia_mi_alghivari/docs/support/facelift-v2/qa/evidence/vitest-results.xml\n"
+    },
+    {
+      "label": "format-final3c",
+      "command": "npm run format:check",
+      "chunk_id": "6f70ee",
+      "wall_time_seconds": 1.0440296,
+      "exit_code": 0,
+      "original_token_count": 42,
+      "output": "\n> sia-alghivari-facelift-review@0.1.0 format:check\n> prettier --check src index.html *.json *.ts\n\nChecking formatting...\nAll matched files use Prettier code style!\n"
+    },
+    {
+      "label": "structure-final3c",
+      "command": "python .ai/tools/source_structure_audit.py --root . --paths docs/support/facelift-v2/prototype/src",
+      "chunk_id": "403d12",
+      "wall_time_seconds": 0.380569,
+      "exit_code": 0,
+      "original_token_count": 57,
+      "output": "Source structure: 23 files, 0 errors, 0 warnings, 0 skipped\r\nHeuristic check of human-maintained source formatting; does not prove semantic architecture or code correctness. Warnings require review but do not fail by default.\r\n"
+    }
+  ]
+}

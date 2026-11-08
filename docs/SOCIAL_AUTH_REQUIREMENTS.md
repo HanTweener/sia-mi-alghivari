@@ -1,0 +1,13 @@
+# Social Sign-In Requirements — SIA MI ALGHIVARI
+- **Status:** UNASSESSED
+- **Owner:** [FILL IN]
+- **Target platforms:** [FILL IN]
+- **Sign-in providers:** [GOOGLE / GITHUB / APPLE / FACEBOOK / NONE]
+- **Provider API connection features:** [FILL IN or N/A]
+- **Existing auth platform / session strategy:** [FILL IN]
+- **Registration vs sign-in behavior:** [FILL IN]
+- **User roles and tenant boundaries:** [FILL IN]
+- **Login, logout, unlink, reconnect and delete account UX:** [FILL IN]
+- **Data minimization and consent requirements:** [FILL IN]
+- **Explicitly excluded mechanisms:** [FILL IN]
+- **Acceptance criteria with test cases:** [FILL IN]

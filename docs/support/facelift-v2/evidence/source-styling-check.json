@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "cssFiles": [
+    "styles.css"
+  ],
+  "globalCssLines": 108,
+  "selectors": [
+    ":root",
+    "*",
+    "body",
+    "h1",
+    "h2",
+    "a[href],\n  button,\n  summary,\n  select,\n  label:has(input[type=\"checkbox\"], input[type=\"radio\"])",
+    "button:disabled,\n  select:disabled,\n  label:has(input:disabled)",
+    ":focus-visible"
+  ],
+  "componentCssSelectors": 0,
+  "manualDeclarations": [],
+  "inlineStyles": [],
+  "note": "Theme variables and Tailwind @apply baseline only; no custom component CSS exception."
+}
