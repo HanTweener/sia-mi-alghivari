@@ -1,6 +1,6 @@
 services:
   sia-web:
-    image: ghcr.io/hantweener/sia_mi_alghivari:latest
+    image: ghcr.io/hantweener/sia-mi-alghivari:latest
     container_name: sia-web
     restart: unless-stopped
     env_file:
@@ -52,7 +52,7 @@ services:
       retries: 10
 
   queue:
-    image: ghcr.io/hantweener/sia_mi_alghivari:latest
+    image: ghcr.io/hantweener/sia-mi-alghivari:latest
     container_name: sia_queue
     restart: unless-stopped
     command: ["php", "artisan", "queue:work", "--tries=3", "--sleep=3"]
@@ -82,7 +82,7 @@ services:
         condition: service_healthy
 
   reverb:
-    image: ghcr.io/hantweener/sia_mi_alghivari:latest
+    image: ghcr.io/hantweener/sia-mi-alghivari:latest
     container_name: sia_reverb
     restart: unless-stopped
     command: ["php", "artisan", "reverb:start", "--host=0.0.0.0", "--port=8080"]
